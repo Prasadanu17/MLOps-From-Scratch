@@ -2,11 +2,21 @@ import sys
 class Chatbook:
 
     def __init__(self):
-        self.name ="Default"
+        self.__name ="Default"
+        self.user_id = 0
+        self.user_id +=1
         self.username = ""
         self.password = ""
         self.loggedin = False
         self.menu()
+
+    # getter
+    def get_name(self):
+        return self.__name
+
+        # setter
+    def set_name(self,value):
+        self.__name= value
 
     def menu(self):
         user_input = input("""Welcome to Chatbook! How would you like to proceed?
