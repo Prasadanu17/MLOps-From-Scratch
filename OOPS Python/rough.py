@@ -1,14 +1,28 @@
+# from oops_project import Chatbook
+
+# user1 = Chatbook()
+# print(user1.user_id)
+
+
+# user2 = Chatbook()
+# print(user2.user_id)
+
+# user3 = Chatbook()
+# print(user3.user_id)
+
 from oops_project import Chatbook
 
+lst = [1, 2, 3]
+
+# Function
+a1 = len(lst)
+print(a1)
+
+# Method
 user1 = Chatbook()
-print(user1.user_id)
+user1.sendmsg()
+print(user1.name)
 
-
-user2 = Chatbook()
-print(user2.user_id)
-
-user3 = Chatbook()
-print(user3.user_id)
 
 
 # getter and setter
