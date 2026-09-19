@@ -1,10 +1,12 @@
 import sys
 class Chatbook:
 
+    __user_id = 0
+
     def __init__(self):
-        self.__name ="Default"
-        self.user_id = 0
-        self.user_id +=1
+        self.id = Chatbook.__user_id
+        Chatbook.__user_id += 1
+        self.__name ="Default user"
         self.username = ""
         self.password = ""
         self.loggedin = False

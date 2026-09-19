@@ -1,14 +1,14 @@
 # from oops_project import Chatbook
 
 # user1 = Chatbook()
-# print(user1.user_id)
+# print(user1.id)
 
 
 # user2 = Chatbook()
-# print(user2.user_id)
+# print(user2.id)
 
 # user3 = Chatbook()
-# print(user3.user_id)
+# print(user3.id)
 
 from oops_project import Chatbook
 

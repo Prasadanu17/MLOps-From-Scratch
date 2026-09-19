@@ -23,4 +23,10 @@
     > getter and setter
     > static method 
 
-    > Inheritance
+6.  Inheritance
+    > Inheritance code example
+    > Why inheritance is method? (code reusability,parent has no access to child class)
+    > what gets inherited? - Constructor , Non private attributes, Non Private methods
+    > Constructor overloading & method overloading
+    > Super keyword (can be used only inside class, can not access variables/attributes, used only inside child class)
+    > Types of Inheritance - Single Inheritance | 2. Multilevel | 3. Hierarchical | 4. Multiple <Diamond problem> | 5. Hybrid
