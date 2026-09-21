@@ -23,4 +23,6 @@ Note : Because intitially we were tracking data/folder from git so now we remove
     > git add .
     > git commit -m "Add DVC data versioning"
     > git push origin main
-
+9.  Now - "python -m dvc commit"
+ and then "python -m dvc push"
+10. Do a git add-commit-push to mark this stage as first version of data.
