@@ -19,4 +19,8 @@ Note : Because intitially we were tracking data/folder from git so now we remove
 8. Again we do "dvc add data/" (creates data.dvc) then "git add .gitignore data.dvc"
 
     > python -m dvc status
+    > git log --online
+    > git add .
+    > git commit -m "Add DVC data versioning"
+    > git push origin main
 
